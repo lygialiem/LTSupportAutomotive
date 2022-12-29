@@ -202,6 +202,8 @@ NSString* const LTOBD2AdapterDidReceive = @"LTOBD2AdapterDidReceive";
     
     [_inputStream open];
     [_outputStream open];
+    
+    [[NSRunLoop currentRunLoop] run];
 }
 
 -(void)disconnect
