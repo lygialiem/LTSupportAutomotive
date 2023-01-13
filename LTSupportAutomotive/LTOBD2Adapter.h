@@ -72,6 +72,7 @@ extern NSString* const LTOBD2AdapterDidReceive;
 // connection handling
 -(void)connect;
 -(void)disconnect;
+-(void)runLoop;
 
 // command handling
 -(void)transmitRawString:(NSString*)command responseHandler:(nullable LTOBD2RawResponseHandler)handler;

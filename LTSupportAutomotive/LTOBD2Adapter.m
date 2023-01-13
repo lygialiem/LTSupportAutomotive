@@ -202,7 +202,10 @@ NSString* const LTOBD2AdapterDidReceive = @"LTOBD2AdapterDidReceive";
     
     [_inputStream open];
     [_outputStream open];
-    
+}
+
+-(void)runLoop
+{
     [[NSRunLoop currentRunLoop] run];
 }
 
