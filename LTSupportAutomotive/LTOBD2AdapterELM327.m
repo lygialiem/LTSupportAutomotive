@@ -74,7 +74,7 @@
 {
     NSMutableArray<NSString*>* init0 = [NSMutableArray array];
     [init0 addObjectsFromArray:@[
-                                 @"ATD",       // set defaults
+//                                 @"ATD",       // set defaults
                                  @"ATZ",       // reset all settings
                                  @"ATE0",      // echo off
                                  @"ATL0",      // line feeds off
