@@ -188,9 +188,6 @@
 
 @implementation LTOBD2DummyCommand
 
-+(instancetype)dummyCommand
-{
-    return [[self alloc] init];
-}
+
 
 @end
